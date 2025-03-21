@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>姜晓婷个人主页</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>姜晓婷</h1>
+            <p class="subtitle">个人主页</p>
+        </header>
+        
+        <div class="profile">
+            <div class="photo-container">
+                <img src="your-photo.jpg" alt="姜晓婷" id="profile-photo">
+            </div>
+            <div class="info">
+                <p><strong>出生年月:</strong> 2000.10</p>
+                <p><strong>联系电话:</strong> 15870624936</p>
+                <p><strong>邮箱:</strong> <a href="mailto:jiangxt158@163.com" class="email-link">jiangxt158@163.com</a></p>
+                <p><strong>现居地:</strong> 河南省信阳市平桥区</p>
+            </div>
+        </div>
+
+        <nav class="module-nav">
+            <ul>
+                <li class="active" data-module="education"><a href="#education"><i class="fas fa-graduation-cap"></i> 教育背景</a></li>
+                <li data-module="internship"><a href="#internship"><i class="fas fa-briefcase"></i> 实习经历</a></li>
+                <li data-module="skills"><a href="#skills"><i class="fas fa-certificate"></i> 技能证书</a></li>
+                <li data-module="evaluation"><a href="#evaluation"><i class="fas fa-star"></i> 自我评价</a></li>
+            </ul>
+        </nav>
+
+        <div class="resume-content">
+            <article id="education" class="module active">
+                <div class="module-header">
+                    <h3><i class="fas fa-graduation-cap"></i> 教育背景</h3>
+                </div>
+                <div class="module-body">
+                    <div class="education-item">
+                        <h4>本科院校: 江西师范大学</h4>
+                        <p>时间：2019.09-2023.06</p>
+                        <p>专业: 自然地理与资源环境</p>
+                        <p>主修课程：环境科学导论、环境生态学、土壤地理学、环境化学、环境影响评价、环境规划与管理</p>
+                    </div>
+                </div>
+            </article>
+
+            <article id="internship" class="module">
+                <div class="module-header">
+                    <h3><i class="fas fa-briefcase"></i> 实习经历</h3>
+                </div>
+                <div class="module-body">
+                    <div class="experience-item">
+                        <p>2020年暑假，在河南省信阳市信阳职业技术学院进行学校绿化部门办公室资料整理工作，熟练运用office相关软件。</p>
+                    </div>
+                    <div class="experience-item">
+                        <p>2021年暑期，报名江西师范大学地理与环境学院暑期“三下乡”活动，通过面试加入环教营，前往鄱阳县侯家岗乡军民水库学校支教12天，锻炼了吃苦耐劳的精神，培养了耐心、细心的品质。</p>
+                    </div>
+                    <div class="experience-item">
+                        <p>2022年暑假，于广电计量检测(江西)有限公司的无机检测分析实验室实习两个月，进行了土壤、空气、水体样本的前处理工作，进一步积累了经验。</p>
+                    </div>
+                    <div class="experience-item">
+                        <p>2023年6月-12月，在本科导师课题组负责报账及实验室助理工作并备战24考研，期间有外出采样经验。</p>
+                    </div>
+                </div>
+            </article>
+
+            <section id="skills" class="module">
+                <div class="module-header">
+                    <h3><i class="fas fa-certificate"></i> 技能证书</h3>
+                </div>
+                <div class="module-body">
+                    <div class="skills-container">
+                        <div class="skill-item">
+                            <i class="fas fa-certificate"></i>
+                            <div class="skill-info">
+                                <p>证书: 大学英语四/六级 (CET-4/6)</p>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-desktop"></i>
+                            <div class="skill-info">
+                                <p>技能: 计算机二级MS Office高级应用，基本掌握Origin、SigmaPlot等软件的使用</p>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                            <div class="skill-info">
+                               <p>证书: 教师资格证（高中地理）</p>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-language"></i>
+                            <div class="skill-info">
+                                <p>证书: 普通话二级甲等</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="evaluation" class="module">
+                <div class="module-header">
+                    <h3><i class="fas fa-star"></i> 自我评价</h3>
+                </div>
+                <div class="module-body">
+                    <p>认真负责，尊重师长，乐于助人，生活中坚持自我反省。具备良好的学习、沟通和团队协作能力。对土壤重金属污染防治与修复方面的研究颇有兴趣、充满热情。</p>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
